@@ -21,15 +21,34 @@
         <h1>Delete your PocketSmart account</h1>
         <div class="notice">You can request deletion of your PocketSmart account and associated data at any time.</div>
 
-        <h2>How to request deletion</h2>
-        <p>Send an email to <a href="mailto:pcktsmart@gmail.com?subject=PocketSmart%20Account%20Deletion%20Request">pcktsmart@gmail.com</a> with the subject <strong>PocketSmart Account Deletion Request</strong>.</p>
-        <p>Send the request from the email address associated with your PocketSmart account and include your PocketSmart account email address. Do not send your password or one-time codes.</p>
+        <p>Last updated: October 15, 2026</p>
+        <h2>Delete inside PocketSmart</h2>
+        <ol>
+          <li>Open PocketSmart and sign in to the account you want to delete.</li>
+          <li>Open Home, tap the profile icon, and select <strong>Delete account</strong>.</li>
+          <li>Verify your identity with your current password or the same Google account, as prompted.</li>
+          <li>Select <strong>Delete my account</strong>, then confirm <strong>Delete permanently</strong>.</li>
+        </ol>
+        <p>Deletion cannot be undone. If a connection error interrupts deletion, retry to remove the remaining records. Deleting a Google-linked PocketSmart account does not delete your Google account, Gmail, or other Google services.</p>
 
-        <h2>What will be deleted</h2>
-        <p>After verifying the request, we will delete the PocketSmart account and associated user-entered data, including profile information, budgets, expenses, savings goals, and progress data stored for that account.</p>
+        <h2>Request deletion without installing the app</h2>
+        <p>Email <a href="mailto:pcktsmart@gmail.com?subject=PocketSmart%20Account%20Deletion%20Request">pcktsmart@gmail.com</a> with the subject <strong>PocketSmart Account Deletion Request</strong>.</p>
+        <p>Use the email address associated with your PocketSmart account and include that account email in your request. We verify account ownership before acting on an email request. Do not send passwords, one-time codes, or bank credentials. You do not need to reinstall PocketSmart to use this email route.</p>
+        <p>Email requests are handled by support, not automatically by sending the email. After verification, we remove the account and associated active records listed below and confirm completion. Contact the same email address for the status of your request.</p>
 
-        <h2>Processing time and retention</h2>
-        <p>We will process a valid request within a reasonable period. Limited information may remain temporarily in encrypted backups or where retention is required by law, after which it will be deleted or anonymized.</p>
+        <h2>Data deleted</h2>
+        <ul>
+          <li>Your PocketSmart sign-in account and profile, including name, email, account identifier, and any saved phone number.</li>
+          <li>Budget, allowance, balance, savings goals, and progress information.</li>
+          <li>Transactions, including manually entered and SMS-derived expenses, income, refunds, merchant details, dates, categories, and saved notes.</li>
+          <li>SMS review records, duplicate-detection references, processing markers, and saved merchant correction rules.</li>
+        </ul>
+        <p>The in-app flow also stops automatic SMS tracking and clears its local queue, saved app session, and this account's local conversation-preview records. It does not delete messages from your phone's SMS app. Raw SMS text is processed on the device and is not uploaded to PocketSmart's Firebase database.</p>
+
+        <h2>Processing and retention</h2>
+        <p>Successful in-app deletion removes the listed active PocketSmart database records and deletes the Firebase Authentication user. PocketSmart does not impose an additional waiting period on the active records removed by this flow. Email requests require ownership verification and support processing before those steps take place.</p>
+        <p>Service-provider retention is separate from removal of the active PocketSmart account. Google states that Firebase Authentication removes other authentication information from its live and backup systems within <strong>180 days</strong> after deletion is initiated, and retains logged IP addresses for a few weeks. See <a href="https://firebase.google.com/support/privacy">Firebase's privacy and retention information</a>. This provider retention does not mean the deleted PocketSmart credentials remain usable.</p>
+        <p>If you request deletion by email after uninstalling the app, any remaining local app files can be removed using Android Settings &gt; Apps &gt; PocketSmart &gt; Storage &gt; Clear storage. This action alone does not delete your cloud account.</p>
 
         <p><a href="privacy-policy.html">Read the PocketSmart Privacy Policy</a></p>
         <footer>Contact: <a href="mailto:pcktsmart@gmail.com">pcktsmart@gmail.com</a></footer>
